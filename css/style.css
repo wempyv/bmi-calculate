@@ -121,15 +121,6 @@ hr {
   border: 1px solid #F5F1F1;
 }
 
-.footer {
-  font-size: 12px;
-  font-weight: 300;
-  color: #a8a6a6;
-  bottom:0;
-  right:0;
-  left:0;
-  position:fixed;
-}
 
 .section-results {
   visibility: hidden;
