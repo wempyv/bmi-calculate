@@ -1,0 +1,155 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.header-title {
+  font-size: 14px;
+  font-weight: 300;
+  padding-bottom: 12px;
+}
+
+span {
+  color: #4A0C44;
+}
+
+.content {
+  font-size: 12px;
+  font-weight: 300;
+  max-width: 17rem;
+  color: #B5AFAF;
+  padding-bottom: 15px;
+}
+
+.black-color {
+  color: black;
+  font-weight: 400;
+}
+
+label {
+  font-weight: 300;
+  font-size: 14px;
+  color: #4A0C44;
+}
+
+.main-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.main-app input {
+  border: 1px solid #dddddd;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.main-app .your-name {
+  padding-bottom: 15px;
+}
+
+.main-app .your-gender {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.main-app .your-gender .option {
+  margin-left: 45px;
+}
+
+.main-app .your-height {
+  padding-right: 4px;
+}
+
+.main-app .resize-input {
+  width: 49px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main-app .input-name {
+  margin-left: 20px;
+}
+
+.main-app .height-weight {
+  padding-bottom: 40px;
+}
+
+.main-app .femalebutton {
+  padding-bottom: 10px;
+}
+
+.main-app .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding: 10px 80px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  border-radius: 4px;
+  background-color: #4A0C44;
+}
+
+.main-app .btn:hover {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  background-color: #7a81eb;
+}
+
+.main-app input[type=number] {
+  font-size: 10px;
+}
+
+hr {
+  margin: 36px 0;
+  border: 1px solid #F5F1F1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  padding-bottom: 20px;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 30px;
+  color: #a8a6a6;
+}
+
+.section-results {
+  visibility: hidden;
+}
+
+.btn[disabled]:hover {
+  cursor: not-allowed;
+  -webkit-transform: none;
+          transform: none;
+}
+
+@media (min-height: 1024px) {
+  .footer {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=style.css.map */
