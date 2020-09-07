@@ -123,15 +123,13 @@ hr {
 
 .footer {
   position: absolute;
+  bottom: 0;
   width: 100%;
-  left: 0;
+  height: 2.5rem;  
   padding-bottom: 20px;
 }
 
 .footer p {
-  bottom: 0;
-  width: 100%;
-  left: 0;
   text-align: center;
   font-size: 12px;
   font-weight: 300;
